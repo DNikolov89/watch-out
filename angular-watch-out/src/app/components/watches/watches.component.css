@@ -1,0 +1,16 @@
+.watches-wrapper {
+    display: flex;
+    padding: 3rem;
+}
+
+.watches-wrapper__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.watch-card img{
+    width: 150px;
+    height: auto;
+}

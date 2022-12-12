@@ -13,6 +13,7 @@ import { LastAddedWatchesComponent } from './components/home/last-added-watches/
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { SellWatchComponent } from './components/sell-watch/sell-watch.component';
+import { WatchesComponent } from './components/watches/watches.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SellWatchComponent } from './components/sell-watch/sell-watch.component
     LastAddedWatchesComponent,
     LoginComponent,
     RegisterComponent,
-    SellWatchComponent
+    SellWatchComponent,
+    WatchesComponent
   ],
   imports: [
     BrowserModule,
