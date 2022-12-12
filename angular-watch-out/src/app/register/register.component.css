@@ -1,0 +1,16 @@
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.register-wrapper__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-wrapper__content>form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

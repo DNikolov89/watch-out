@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NgbdCarouselBasic } from './components/home/carousel/carousel.component';
 import { LastAddedWatchesComponent } from './components/home/last-added-watches/last-added-watches.component';
 import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LoginComponent } from './components/login/login.component';
     HomeComponent,
     NgbdCarouselBasic,
     LastAddedWatchesComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
