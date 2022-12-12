@@ -1,0 +1,19 @@
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.watches-wrapper {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.watches-wrapper__card {
+    text-align: center;
+}
+
+.watches-wrapper__card > img {
+    max-width: 20rem;
+}

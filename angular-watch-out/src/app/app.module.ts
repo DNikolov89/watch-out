@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ErrorPageComponent } from './components/error-page/error-page.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgbdCarouselBasic } from './components/home/carousel/carousel.component';
+import { LastAddedWatchesComponent } from './components/home/last-added-watches/last-added-watches.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NgbdCarouselBasic } from './components/home/carousel/carousel.component
     FooterComponent,
     ErrorPageComponent,
     HomeComponent,
-    NgbdCarouselBasic
+    NgbdCarouselBasic,
+    LastAddedWatchesComponent
   ],
   imports: [
     BrowserModule,
