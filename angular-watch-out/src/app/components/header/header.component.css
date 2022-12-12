@@ -1,0 +1,33 @@
+#header-watch-logo {
+    width: 30px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-container__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #194333;
+    padding: 1rem;
+    color: white;
+}
+
+/* TODO: Might be removed because of carousel */
+nav {
+    box-shadow: 0px 10px 26px -12px rgba(0, 0, 0, 0.75);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+}
