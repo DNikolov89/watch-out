@@ -1,0 +1,11 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.login-wrapper_content{
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    align-items: center;
+}

@@ -10,6 +10,7 @@ import { ErrorPageComponent } from './components/error-page/error-page.component
 import { HomeComponent } from './components/home/home.component';
 import { NgbdCarouselBasic } from './components/home/carousel/carousel.component';
 import { LastAddedWatchesComponent } from './components/home/last-added-watches/last-added-watches.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LastAddedWatchesComponent } from './components/home/last-added-watches/
     ErrorPageComponent,
     HomeComponent,
     NgbdCarouselBasic,
-    LastAddedWatchesComponent
+    LastAddedWatchesComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
