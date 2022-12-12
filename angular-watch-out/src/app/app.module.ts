@@ -7,13 +7,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ErrorPageComponent } from './components/error-page/error-page.component';
+import { HomeComponent } from './components/home/home.component';
+import { NgbdCarouselBasic } from './components/home/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    HomeComponent,
+    NgbdCarouselBasic
   ],
   imports: [
     BrowserModule,
