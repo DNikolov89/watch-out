@@ -1,0 +1,12 @@
+.watch-form-wrapper {
+    display: flex;
+   justify-content: center;
+   padding: 2rem 0;
+}
+
+.watch-form-wrapper>form {
+    display: flex;
+    flex-direction: column;
+    max-width: 15rem;
+    align-content: center;
+}
